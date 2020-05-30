@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: 실수
 feature-img: "assets/img/portfolio/cake.png"
 img: "assets/img/portfolio/cake.png"

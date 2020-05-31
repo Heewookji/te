@@ -1,10 +1,16 @@
 ---
 layout: single
 title: 실수
-feature-img: "assets/img/portfolio/cake.png"
-img: "assets/img/portfolio/cake.png"
-date: 12 October 2019
-tags: [실수]
+toc: true
+toc_sticky: true
+toc_label: 목차
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
+categories:
+- ComputerScience
 ---
 
 

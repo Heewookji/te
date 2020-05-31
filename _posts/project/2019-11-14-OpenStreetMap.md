@@ -1,7 +1,17 @@
 ---
 layout: single
 title: OSM(OpenStreetMap)
-tags: [ProjectDiary]
+toc: true
+toc_sticky: true
+toc_label: 목차
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
+categories:
+- Project
+tags: [mapapi]
 ---
 
 # GoogleMap 대신 OpenStreetMap 사용하기

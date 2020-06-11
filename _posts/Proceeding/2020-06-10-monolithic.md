@@ -6,9 +6,10 @@ toc: true
 toc_sticky: true
 toc_label: 목차
 header:
+  teaser: /assets/images/post-header/code.jpg
   overlay_color: "#145252"
 categories:
-- proceeding
+- Proceeding
 ---
 
 

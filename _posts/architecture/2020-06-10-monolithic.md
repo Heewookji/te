@@ -1,6 +1,24 @@
 ---
 title: monolithic architecture
+layout: single
+toc: true
+toc_sticky: true
+toc_label: 목차
+author_profile: true
+read_time: true
+share: true
+related: true
+excerpt: "모놀리틱 구조"
+header:
+  overlay_color: "#145252"
+title: monolithic architecture
+categories:
+- proceeding
 ---
+
+
+
+
 
 # 개발
 

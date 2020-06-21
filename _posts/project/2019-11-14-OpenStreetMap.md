@@ -11,7 +11,6 @@ share: true
 related: true
 categories:
 - Project
-tags: [mapapi]
 ---
 
 # GoogleMap 대신 OpenStreetMap 사용하기

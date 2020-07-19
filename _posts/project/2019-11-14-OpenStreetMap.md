@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: OSM(OpenStreetMap)
 toc: true
 toc_sticky: true

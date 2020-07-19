@@ -1,6 +1,6 @@
 ---
 title: monolithic architecture
-layout: single
+layout: post
 excerpt: "모놀리틱 구조"
 toc: true
 toc_sticky: true

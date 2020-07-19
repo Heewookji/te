@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: post
 title: 실수
 toc: true
 toc_sticky: true

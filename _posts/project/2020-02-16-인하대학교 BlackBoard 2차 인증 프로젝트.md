@@ -1,6 +1,6 @@
 ---
 title: 인하대학교 BlackBoard 2차 인증 프로젝트
-layout: single
+layout: post
 toc: true
 toc_sticky: true
 toc_label: 목차

@@ -1,3 +1,5 @@
-source "https://rubygems.org"
-gemspec
-gem 'jekyll-admin', group: :jekyll_plugins
+source 'https://rubygems.org'
+gem 'jekyll-paginate'
+
+gem "jekyll", "~> 4.0"
+gem "rake"

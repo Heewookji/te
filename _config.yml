@@ -38,7 +38,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # `$ gem install jekyll-paginate`
 plugins: 
   - jekyll-paginate
-
+  - jekyll-sitemap
 
 
 # Markdown settings
@@ -97,6 +97,7 @@ service-worker: true
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: true
 
+gem: [jekyll-admin]
 
 
 # Friends

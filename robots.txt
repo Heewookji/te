@@ -1,3 +1,3 @@
 ser-agent: *
 Allow: /
-Sitemap: http://heewookji.github.io/sitemap_another.xml
+Sitemap: https://heewookji.github.io/sitemap.xml

@@ -5,7 +5,7 @@ header-img: img/home-bg-o.jpg
 email: wlgmldnr@daum.net
 description: "Software Engineer"
 keyword: "Java, Web, 자바, JavaScript, vue, 스프링, 웹개발"
-url: "https://heewookji.github.io"              # your host, for absolute URL
+url: https://heewookji.github.io             # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 headertitle: "휘발되지 않도록 옮기는 저장소"
 # Publish posts or collection documents with a future date.

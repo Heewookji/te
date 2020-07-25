@@ -1,6 +1,6 @@
 # Site settings
-title: MilkFried Blog
-SEOTitle: MilkFried Blog
+title: 우유튀김 Blog
+SEOTitle: 우유튀김 Blog
 header-img: img/home-bg-o.jpg
 email: wlgmldnr@daum.net
 description: "Software Engineer"
@@ -77,7 +77,7 @@ ga_domain: heewookji.github.io
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "MilkFried"
+sidebar-about-description: "개발자 우유튀김"
 sidebar-avatar: /img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 

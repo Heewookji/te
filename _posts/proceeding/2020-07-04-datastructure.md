@@ -1,25 +1,33 @@
 ---
 title: dataStructure
 layout: post
-toc: true
-toc_sticky: true
-toc_label: 목차
-author_profile: true
-read_time: true
-share: true
-related: true
-excerpt: 데이터 구조
-header:
-  overlay_color: "#145252"
-categories:
-- Proceeding
+subtitle: 데이터 구조
+tags:
+- DataStructure
+# header-img: "img/post-bg-2015.jpg"
+header-style: text
 ---
 
-***
-# 선형 자료 구조
-***
+## 자료구조의 구현
 
-## 동적 배열 ( dynamic array )
+물리적으로 자료구조를 구현하는 방법은 리스트와 연결 리스트, 두가지 방법이 있다.
+
+| 이름 | 구현 방식  |
+|---|---|
+| 리스트  | 각 데이터를 메모리에 물리적으로 연이어 저장한다.  |
+| 연결 리스트  | 각 데이터를 임의의 위치에 저장하고 서로 연결한다.  |
+
+대부분의 자료구조는 내부적으로 리스트 또는 연결 리스트를 이용하여 구현한다. 스택, 큐, 데크, 트리는 리스트로도, 연결 리스트로도 구현 가능한다.
+
+
+![자료구조](/img/in-post/dataStructure/datastructure.jpeg)
+
+
+## 선형 자료 구조
+
+데이터들이 일렬로 쭉 저장되어 있는 형태의 자료 구조이다. 동적 배열, 연결 리스트, 데크, 스택, 큐 등이 있다. 저장하는 방식으로는 리스트, 연결 리스트 방식이 있으며 사용하는 방식에 따라 데크, 스택, 큐가 추가된다.
+
+### 동적 배열 ( dynamic array )
 
 동적 배열은 대부분의 언어 표준 라이브러리에서 제공한다. C++의 vector, 자바나 C#의 ArrayList 등이 예이다.
  
@@ -33,9 +41,9 @@ categories:
 
 append() 호출마다 resize()를 실행할 경우, 상수시간에 동작 못하기 때문에 배열의 크기가 커질 때를 대비해 여유분의 메모리를 미리 할당한다.
 
-![동적배열](../../assets/images/posts/dataStructure/dynamicarray.png)
+![동적배열](/img/in-post/dataStructure/dynamicarray.png)
 
-### Append의 재할당
+#### Append의 재할당
 실제로 프로그램 내에서 배열의 크기는 4라고 인식되지만 capacity(용량)까지의 크기는 6이다.
 이를 통해 append 연산을 size를 1 늘리는 것으로 끝낼 수 있다. 
 하지만 용량까지 모두 찼을 때에는 새 배열을 동적으로 할당받고 기존 원소를 모두 복사한 뒤, 다음 배열에 대한 포인터를 바꿔치기해야한다.
@@ -45,14 +53,14 @@ append() 호출마다 resize()를 실행할 경우, 상수시간에 동작 못�
 
 
 
-## 연결 리스트 ( linked list )
+### 연결 리스트 ( linked list )
 
 배열 원소의 순서를 유지하며 특정 위치에서 원소를 삽입, 삭제할 때의 효율성을 높이기 위해 연결 리스트가 등장하였다.
 해당 작업을 상수 시간에 해주는 이 자료 구조는 배열과 많이 다른 형태를 가진다.
 
 - 원소들은 메모리의 사방에 흩어져 있고 각 원소들이 이전과 다음 원소를 가리키는 포인터를 가진다. (양방향)
 
-![동적배열](../../assets/images/posts/dataStructure/linkedlist.png)
+![동적배열](/img/in-post/dataStructure/linkedlist.png)
 
 
 ```java
@@ -78,3 +86,25 @@ class ListNode {
 | 맨 뒤에 원소 추가/삭제  | O(1)     | O(1)    |
 | 맨 뒤가 아닌 원소 추가/삭제  | O(n)     | O(1)    |
 | 원소 위치 찾기  | O(1)     | O(n)    |
+
+
+
+### 데크
+
+
+
+### 스택
+
+
+### 큐
+
+
+
+## 비선형 자료 구조
+
+비선형 자료 구조에서는 데이터가 트리 구조로 저장되어 있다고 생각한다. 트리, 그래프 구조가 있으며 물리적으로는 리스트와 연결 리스트로 구현되어 있지만 사용 방식이 다르다.
+
+### 트리 / 힙
+
+
+### 그래프

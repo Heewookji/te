@@ -1,16 +1,10 @@
 ---
 layout: post
 title: 실수
-toc: true
-toc_sticky: true
-toc_label: 목차
-author_profile: true
-read_time: true
-comments: true
-share: true
-related: true
-categories:
+subtitle: 컴퓨터의 실수 표현
+tags:
 - ComputerScience
+header-style: text
 ---
 
 

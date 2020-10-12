@@ -1,5 +1,6 @@
 ---
 title: IOC(Inversion Of Control)
+layout: post
 tag: Ioc
 ---
 

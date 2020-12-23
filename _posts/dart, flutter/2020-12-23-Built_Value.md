@@ -24,6 +24,8 @@ header-style: text
 
 코드예제와 내용 원문 : <https://medium.com/flutter/some-options-for-deserializing-json-with-flutter-7481325a4450>
 
+빌트발루보다 가벼운 json_serializable 패키지에 대한 참조 : <https://flutter-ko.dev/docs/development/data-and-backend/json>
+
 ## Json 데이터 변환
 
 서버에서 받은 리스폰스의 데이터(주로 Json string)를 위젯에서 사용하기 전

@@ -15,12 +15,13 @@ header-style: text
 > - JSON serialization 
 
 최근 사이드 프로젝트에서 모델들을 만들고, json 형식으로 serialize, deserialize를 하면서
-자동화된 패키지가 없나 찾아보다가 발견한 패키지이다. (flutter favorite 패키지)
+자동화된 패키지가 없나 찾아보다가 발견한 패키지(flutter favorite)이다. 
 빌트발루는 value type처럼 동작하는 클래스 생성에 도움을 주는 패키지이고, 
 따라서 빌트발루를 이용해 만들어진 객체는 불변이다. 이처럼 serialization 로직을 자동화하는 목적
 이상의 패키지이지만 여기서는 serialization에 집중해서 정리하고자 한다.
 
 관련내용과 추가정보 : <https://pub.dev/packages/built_value>
+
 코드예제와 내용 원문 : <https://medium.com/flutter/some-options-for-deserializing-json-with-flutter-7481325a4450>
 
 ## Json 데이터 변환
@@ -31,7 +32,7 @@ header-style: text
 모델로 변환할 때에는 여러 가지 방법이 있고, Built_value는 그 방법 중 하나를 제공한다.
 
 서버에서 받아온 다음 json 포맷에 대해 직접 구현하는 방식과, 
-Built_value(이하 빌트발루)를 이용하는 방법을 알아본다.
+Built_value(이하 빌트발루)를 이용해 구현하는 방법을 알아본다.
 
 ```json
 {
@@ -163,9 +164,7 @@ abstract class SimpleObject
 주소에 잘 설명되어있음) pubspec.yaml 파일이 있는 곳에서 아래 명령어를 실행하면
 위 part에 적어놓은 simple_object.g.dart 파일이 생성된다.
 
-```
-flutter packages pub run build_runner build
-```
+> flutter packages pub run build_runner build
 
 이렇게 생성된 simple_object.g.dart 파일 안에는 SimpleObject를 extend 하는 _$SimpleObject 클래스가 있다.
 이 _$SimpleObject 클래스는 해쉬코드, 불변성 관련 메서드, toString 등등에 대한 많은 기능을 제공한다.

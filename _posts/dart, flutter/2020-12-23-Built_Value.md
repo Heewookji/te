@@ -24,7 +24,7 @@ header-style: text
 
 코드예제와 내용 원문 : <https://medium.com/flutter/some-options-for-deserializing-json-with-flutter-7481325a4450>
 
-빌트발루보다 가벼운 json_serializable 패키지에 대한 참조 : <https://flutter-ko.dev/docs/development/data-and-backend/json>
+빌트발루보다 가벼운 json_serializable 패키지에 대한 정보 : <https://flutter-ko.dev/docs/development/data-and-backend/json>
 
 ## Json 데이터 변환
 

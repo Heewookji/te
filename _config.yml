@@ -13,8 +13,8 @@ future: true
 
 # SNS settings
 RSS: false
-github_username:    Heewookji
-#twitter_username:   huxpro
+github_username: Heewookji
+email_username: wlgmldnr@daum.net
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 

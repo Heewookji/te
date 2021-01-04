@@ -20,15 +20,15 @@ description: "휘발되지 않도록 옮기는 저장소"
             {{ post.subtitle }}
         </h3>
         {% endif %}
-        <!-- <div class="post-content-preview">
+        <div class="post-content-preview">
             {% if post.lang == 'en' %}
                 {{ post.content | strip_html | truncate:300 }}
             {% else %}
                 {{ post.content | strip_html | truncate:200 }}
             {% endif %}
-        </div> -->
+        </div>
     </a>
-    <p class="post-meta" style="margin-bottom: 0;">
+    <p class="post-meta">
       {{ post.date | date: "%B %-d, %Y" }}
     </p>
 </div>

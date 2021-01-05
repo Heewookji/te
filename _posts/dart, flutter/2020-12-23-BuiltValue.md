@@ -1,5 +1,5 @@
 ---
-title: Built_Value
+title: Built Value와 직렬화
 layout: post
 subtitle: 빌트발루를 이용해 만든 모델로 serialization 로직을 자동화하자
 tags:

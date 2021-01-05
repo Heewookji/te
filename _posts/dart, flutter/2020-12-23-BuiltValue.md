@@ -7,8 +7,6 @@ tags:
 header-style: text
 ---
 
-## 빌트 발루에 대해서
-
 > Built_Value를 사용하면 다음을 얻게 된다.
 > - 불변(Immutable) 객체
 > - EnumClass(enums처럼 동작하는 클래스)

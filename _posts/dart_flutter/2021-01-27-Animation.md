@@ -295,8 +295,8 @@ screen의 높이만큼을 지름으로 하도록 했는데, 아무래도 screen�
 이용해보기로 하였다. 
 
 이제 `CustomFillAnimation`에서는 `ClipPath`를 리턴한다. `ClipPath`에서는 child로 Clip할
-Widget을 받는다. 여기에 스크린 크기의 `Container`를 child를 넘겨주었고, clipper 프로퍼티에 넣어준
-`MyCustomClipper`가 이 `Container`를 잘라주게 되는 것이다.
+Widget을 받는다. 여기에 스크린 크기의 `Container`를 child로 넘겨주었고, clipper 프로퍼티에 넣어준
+`MyCustomClipper`가 이 `Container`를 잘라주게 된다.
 
 ```dart
 class CustomFillAnimation extends AnimatedWidget {
@@ -321,7 +321,7 @@ class CustomFillAnimation extends AnimatedWidget {
 
 `MyCustomClipper<Path>`에서는 _location(누른 위치)와 _value(애니메이션 값)를 받는다.
 getClip 메서드에서 Path를 리턴해야하는데, 먼저 Path를 만들고 원을 추가해준다. 중심은 _location이
-되면서, 반지름은 _value에 따라서 최대 size.height / 1.5가 된다. 지름으로 해주려면 2로 나누면 되지만
+되면서, 반지름은 _value에 따라서 최대 size.height / 1.5가 된다. 반지름으로 해주려면 2로 나누면 되지만
 1.5로 나눈 이유는 클릭한 위치에 따라서 원이 화면을 다 못 가리는 일이 생겼기 때문이다.
 
 ```dart

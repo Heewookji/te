@@ -23,6 +23,16 @@ header-style: text
 따라서 내가 생각하기에는 implicit보다는 explicit 쪽의 방식이 맞아보였고, 누른 위치에서 애니메이션이 시작되어야하니
 AnimatedBuilder나 AnimatedWidget이 맞아보였다. 마지막으로 재사용을 위해 AnimatedWidget을 사용하기로 결정!
 
+![kind](/img/in-post/flutter/animation/kind.png)
+
+- `implicit animation widget`은 애니메이션을 위한 listener나 ticker가 마련되어 있고, 언제 애니메이션을 시작해야하는지도
+알려 줄 필요가 없다. 사용자는 그저 property value를 바꿔주기만 하면 된다.
+- `transition animation widget`은 AnimationController나 parent animation을 통해 시작되어야한다. explicit animation의
+커스텀 요소를 implicit보다 더 사용할 수 있다. (이를테면 ticker, listener, status, direction of animation)
+- `explicit animation widget`은 AnimatedBuilder를 이용하여 애니메이션을 처음부터 만든다. 이렇게 만든 애니메이션을 implicit이나
+transition animation으로 재사용할 수 있다.
+
+![kind table](/img/in-post/flutter/animation/kind_table.png)
 ![logic](/img/in-post/flutter/animation/logic.png)
 
 
